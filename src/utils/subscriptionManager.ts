@@ -80,7 +80,7 @@ export class SubscriptionManager {
   private formspreeEndpoint: string;
 
   constructor(formspreeEndpoint: string) {
-    this.formspreeEndpoint = formspreeEndpoint;
+    this.formspreeEndpoint = 'mdklozew'; // Newsletter endpoint
   }
 
   // Send welcome email to new subscriber

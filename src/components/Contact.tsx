@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Send, Clock, Globe } from 'lucide-react';
 import SEOHead from './SEOHead';
 
 const Contact: React.FC = () => {
-  const [state, handleSubmit] = useForm("xzzvwrgz"); // You'll need to replace this with your actual Formspree form ID
+  const [state, handleSubmit] = useForm("xrblwwyy"); // Contact us - SFS endpoint
   const [formData, setFormData] = useState({
     name: '',
     email: '',
