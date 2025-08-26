@@ -97,7 +97,7 @@ export class SubscriptionManager {
     formData.append('_subject', `Welcome Email: ${email}`);
 
     try {
-      const response = await fetch(`https://formspree.io/f/${this.formspreeEndpoint}`, {
+      const response = await fetch(`https://formspree.io/f/mdklozew`, {
         method: 'POST',
         body: formData,
       });
