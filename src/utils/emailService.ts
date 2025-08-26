@@ -125,6 +125,6 @@ export class EmailService {
 }
 
 export const validateEmailJSConfig = (): boolean => {
-  // Since you're using your actual credentials, always return true
-  return true;
+  // Validate that all required EmailJS configuration is present
+  return !!(EMAILJS_SERVICE_ID && EMAILJS_PUBLIC_KEY && EMAILJS_TEMPLATE_ID_WELCOME && EMAILJS_TEMPLATE_ID_ARTICLE);
 };
